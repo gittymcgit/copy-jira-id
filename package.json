@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "is-valid-domain": "0.0.14"
+    },
+    "devDependencies": {
+        "webpack-plugin": "^1.0.5"
+    }
+}
