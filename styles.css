@@ -13,3 +13,11 @@
 .copy-jira-id-button:hover{
     background: rgba(9, 30, 66, 0.08);
 }
+
+[data-test-id="platform-card.ui.card.focus-container"] .copy-jira-id-button {
+    visibility: hidden;
+}
+
+[data-test-id="platform-card.ui.card.focus-container"]:hover .copy-jira-id-button {
+    visibility: visible;
+}
